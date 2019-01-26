@@ -1,0 +1,5 @@
+Strings implement all of the common sequence operations, along with the additional methods described below.
+
+Strings also support two styles of string formatting, one providing a large degree of flexibility and customization (see str.format(), Format String Syntax and Custom String Formatting) and the other based on C printf style formatting that handles a narrower range of types and is slightly harder to use correctly, but is often faster for the cases it can handle (printf-style String Formatting).
+
+The Text Processing Services section of the standard library covers a number of other modules that provide various text related utilities (including regular expression support in the re module).
