@@ -1,0 +1,12 @@
+{
+    "title": "Beginner Python",
+    "author": "Sambo",
+    "release": "2019",
+    "contents": [
+        {
+            "chapter1": {
+                "title": "Variable"
+            }
+        }
+    ]
+}
