@@ -1,0 +1,27 @@
+{
+    "title": "An Informal Introduction to Python",
+    "author": "Chhay Sambo",
+    "release": "2019",
+    "abstract": "In the following examples, input and output are distinguished by the presence or absence of prompts (>>> and ...): to repeat the example, you must type everything after the prompt, when the prompt appears; lines that do not begin with a prompt are output from the interpreter. Note that a secondary prompt on a line by itself in an example means you must type a blank line; this is used to end a multi-line command.",
+    "chapters": [
+        {
+            "chapter_title": "Numbers",
+            "summary": "The interpreter acts as a simple calculator: you can type an expression at it and it will write the value. Expression syntax is straightforward: the operators +, -, * and / work just like in most other languages (for example, Pascal or C); parentheses can be used for grouping. For example:",
+            "content": [
+                "Note: You might not see exactly the same result; floating point results can differ from one machine to another. We will say more later about controlling the appearance of floating point output; what we see here is the most informative display but not as easy to read as we would get with:",
+                "For clarity in this tutorial we will show the simpler floating point output unless we are specifically discussing output formatting, and explain later why these two ways of displaying floating point data come to be different. See Floating Point Arithmetic: Issues and Limitations for a full discussion.",
+                "To do integer division and get an integer result, discarding any fractional result, there is another operator, //:",
+                "The equal sign ('=') is used to assign a value to a variable. Afterwards, no result is displayed before the next interactive prompt:"
+            ]
+        },
+        {
+            "chapter_title": "Strings",
+            "summary": "Besides numbers, Python can also manipulate strings, which can be expressed in several ways. They can be enclosed in single quotes or double quotes:",
+            "content": [
+                "The interpreter prints the result of string operations in the same way as they are typed for input: inside quotes, and with quotes and other funny characters escaped by backslashes, to show the precise value. The string is enclosed in double quotes if the string contains a single quote and no double quotes, else it’s enclosed in single quotes. Once again, the print() function produces the more readable output.",
+                "String literals can span multiple lines in several ways. Continuation lines can be used, with a backslash as the last character on the line indicating that the next line is a logical continuation of the line:",
+                "Note that newlines still need to be embedded in the string using \n; the newline following the trailing backslash is discarded. This example would print the following:"
+            ]
+        }
+    ]
+}

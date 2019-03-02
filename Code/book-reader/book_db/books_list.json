@@ -1,0 +1,14 @@
+{
+    "books": [
+        {
+            "no": 1,
+            "title": "An Informal Introduction to Python",
+            "file": "introduction_to_python.json"
+        },
+        {
+            "no": 2,
+            "title": "Python Data Structures",
+            "file": "python_data_structure.json"
+        }
+    ]
+}
