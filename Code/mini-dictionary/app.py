@@ -1,11 +1,17 @@
-import utils
+#import myutils
+from myutils import get_definition, test_similar_word
 
 
-search_word = input('Enter word: ')
-# search_word = search_word.lower()
-definition = utils.get_definition(search_word)
-for d in definition:
-    print(f'- {d}')
+while True:     # Exit when press \q
+    search_word = input('\nEnter word: ')
+    if search_word == '\\q':
+        break
 
-if not definition:
-    print('Word not found!')
+    # test_similar_word(search_word)
+    
+    definition = get_definition(search_word)
+    for d in definition:
+        print(f'- {d}')
+
+    if not definition:
+        print('Word not found!')
