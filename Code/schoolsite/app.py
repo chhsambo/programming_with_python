@@ -1,21 +1,28 @@
-from models import Course
+from models import *
 
 
-c1 = Course(
+csharp = Course(
     title='C# for Beginner', 
-    description='​សម្រាប់​អ្នក​ចង់ក្លាយជា​អ្នក​បង្កើត​កម្មវិធី និង គេហទំព័រដោយ​ប្រើ​ភាសា C# ។', 
     price=70, 
     duration=60, 
     requirements='C ឬ C++',
     syllabus='String, datetime')
 
-c2 = Course(
+python = Course(
     title='Programming with Python',
-    price=70
+    price=70,
+    duration=48
 )
 
-print(c1.show_details())
-print(c1)
+csharp.description = 'C# is a modern programming created by Microsoft.'
+print(csharp.description)
+print(csharp.discount_price)
+print(csharp.show_details())
+print(f'C# weekend: {csharp.duration_weekend} weeks')
+print(f'Python weekend: {python.duration_weekend} weeks')
 
-print(c2.show_details())
-print(c2)
+# calculate how many weeks for csharp
+# calculate how many weeks for python
+
+cpp = ProgrammingCourse('C++', 59)
+cpp.require_testing()
